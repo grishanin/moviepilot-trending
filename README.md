@@ -6,5 +6,5 @@ moviepilot-trending
 ```
 npm install
 npm start
-open http://localhost:3000
+open http://dev.moviepilot.com:3000
 ```
