@@ -1,0 +1,43 @@
+{
+  "name": "moviepilot-trending",
+  "version": "0.1.0",
+  "description": "Moviepilot trending",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ttps://github.com/grishanin/moviepilot-trending.git"
+  },
+  "keywords": [
+    "moviepilot",
+    "react",
+    "reactjs",
+    "webpack"
+  ],
+  "author": "Evgeny Grishanin <evgrishanin@gmail.com> (http://github.com/grishanin)",
+  "license": "MIT",
+  "homepage": "https://github.com/grishanin/moviepilot-trending",
+  "devDependencies": {
+    "babel-core": "^5.4.7",
+    "babel-eslint": "^3.1.9",
+    "babel-loader": "^5.1.2",
+    "css-loader": "^0.19.0",
+    "eslint-plugin-react": "^2.3.0",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.1",
+    "react-hot-loader": "^1.3.0",
+    "style-loader": "^0.12.4",
+    "webpack": "^1.9.6",
+    "webpack-dev-server": "^1.8.2"
+  },
+  "dependencies": {
+    "flux": "^2.1.1",
+    "keymirror": "^0.1.1",
+    "lodash": "^3.10.1",
+    "react": "^0.13.0",
+    "react-pure-render": "^1.0.2",
+    "react-tween-state": "^0.1.3"
+  }
+}
