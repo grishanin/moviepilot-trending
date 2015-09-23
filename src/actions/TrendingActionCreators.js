@@ -1,11 +1,11 @@
-import { dispatch, dispatchAsync } from '../AppDispatcher';
+import { dispatchAsync } from '../AppDispatcher';
 import ActionTypes from '../ActionTypes';
 import * as TrendingAPI from '../api/TrendingAPI';
 import TrendingStore from '../stores/TrendingStore';
 
 export function requestTrending(loadMore) {
   var page = TrendingStore.getCurrentPage();
-  
+
   if (loadMore) {
     page++;
   }

@@ -13,7 +13,7 @@ export default class Trending extends Component {
   }
   componentWillReceiveProps(nextProps) {
     if (nextProps.fetchCycle !== this.props.fetchCycle) {
-      this.timeoutId = setTimeout(requestTrending, nextProps.refresh_interval);
+      this.timeoutId = setTimeout(requestTrending, nextProps.refreshInterval);
     }
   }
   componentWillUnmount() {

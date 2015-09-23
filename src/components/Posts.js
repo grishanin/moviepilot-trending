@@ -8,7 +8,7 @@ export default class Posts extends Component {
         {this.props.collection.map(item => {
           return <li key={item.id} className="list__item">
             <Post {...item}
-              refreshInterval={this.props.refresh_interval}
+              refreshInterval={this.props.refreshInterval}
               loadMore={this.props.loadMore} />
           </li>;
         })}
